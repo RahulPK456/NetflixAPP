@@ -1,0 +1,42 @@
+.movie-posters{
+    padding: 20PX;
+    display: flex;
+  overflow-x:scroll;
+  overflow-y: hidden;
+
+  border-radius: 10px;
+ border-top:1px  solid gold ;
+  border-bottom: 1px  solid gold;
+}
+
+.movie-posters::-webkit-scrollbar{
+    display: none;
+}
+.mpost{
+    max-height: 250px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.posters{
+  margin-left: 10px;
+  color: white;
+}
+
+.mpost:hover{
+  transform:scale(1.1)
+}
+
+.smallpost{
+  max-height: 150px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.smallpost:hover{
+  transform:scale(1.2)
+}
+
+.categories{
+  margin-top: 10px;
+}
+

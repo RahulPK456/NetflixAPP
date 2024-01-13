@@ -1,0 +1,56 @@
+.nav{
+    position: fixed;
+    left: 20px;
+    width:50px;
+    height: 20px;
+    
+}
+
+.avat{
+    position: fixed;
+    right: 30px;
+    width:30px;
+    height:20px;
+
+}
+.avat:hover{
+    transform: scale(1.2);
+}
+
+.Header{
+    position: fixed;
+    background-color: #111;
+    padding: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.home{
+    right:190px;
+    position: fixed;
+    color: rgba(255, 255, 255, 0.286);
+    text-decoration:none;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+
+.home:hover{
+    transform: scale(1.2);
+}
+
+.Categories{
+    right:90px;
+    position: fixed;
+    color: rgba(255, 255, 255, 0.315);
+    text-decoration:none;
+    cursor: pointer;
+    font-weight: bold;
+   
+}
+
+.Categories:hover{
+    transform: scale(1.2);
+}
